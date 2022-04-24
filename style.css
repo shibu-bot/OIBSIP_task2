@@ -1,0 +1,71 @@
+#main {
+  background-color: #eaeded;
+  align-content: center;
+  margin: 0 auto;
+  padding: 1% 0 1% 0;
+  text-align: center;
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+#img-div {
+  background-color: white;
+  padding: 1% 0 1% 0;
+}
+
+#image {
+  max-width: 75%;
+  margin: 0 auto;
+  display: block;
+}
+
+#img-caption {
+  padding-top: 2em;
+}
+
+#tribute-info {
+  margin: 0 28% 0 28%;
+}
+
+#timeline {
+  margin: 0 auto;
+  text-align: center;
+  margin: 3em 0 2em 0;
+}
+
+#timeline-list {
+  list-style-position: outside;
+  padding: 1em;
+  text-align: left;
+}
+
+li {
+  padding: 0;
+  vertical-align: top;
+  margin-bottom: 0.8em;
+}
+
+.year {
+  font-weight: bold;
+}
+
+#quote {
+  text-align: left;
+  font-style: italic;
+  font-size: 1.2em;
+}
+
+#more-info {
+  margin: 1em;
+  padding: 1em;
+}
+
+@media only screen and (min-width: 200px) and (max-width: 1200px) {
+  #tribute-info {
+    margin: 0 10% 0 10%;
+  }
+  #image {
+    max-width: 100%;
+    margin: 0 auto;
+    display: block;
+  }
+}
